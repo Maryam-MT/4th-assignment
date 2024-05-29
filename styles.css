@@ -1,0 +1,121 @@
+body {
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-menu {
+    background-color: #333; 
+    width: 100%; 
+    display: flex;
+    justify-content: flex-end;
+    position: fixed; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+    left: 0; 
+}
+
+.navigation-menu a {
+    margin: 10px; 
+    color: white;
+    text-decoration: none;
+}
+
+.navigation-menu a:hover {
+    background-color: #555;
+}
+
+.product-container {
+    width: 800px;
+    margin: 0 auto; 
+    background-color: #fff; 
+    padding: 20px;
+    margin-top: 30px;
+}
+.row {
+    display: flex;
+}
+
+.product-image {
+    width: 50%; 
+    padding-right: 10px;
+}
+
+.product-image img {
+    width: 100%; 
+}
+
+.product-detail {
+    width: 50%; 
+}
+
+.related-product {
+    width: 25%; 
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.related-product img {
+    width: 100%; 
+    object-fit: cover;
+}
+
+.related-product-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    display: none;
+}
+.related-product:hover .related-product-name {
+    display: block;
+}
+.About-page-container {
+    width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.main-image-container {
+    position: relative;
+}
+
+.image-caption {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px;
+    display: none;
+}
+
+.main-image-container:hover .image-caption {
+    display: block;
+}
+
+.team-row {
+    display: flex;
+}
+
+.team-member {
+    width: 33.33%; 
+    padding: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%; 
+}
+
